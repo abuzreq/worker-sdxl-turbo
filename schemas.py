@@ -3,6 +3,16 @@ INPUT_SCHEMA = {
         "type": str,
         "required": True,
     },
+    "bending_layer": {
+        "type": str,
+        "required": False,
+        "default": "",
+    },
+    "bending_param": {
+        "type": str,
+        "required": False,
+         "default": 0,
+    },
     "negative_prompt": {"type": str, "required": False, "default": None},
     "height": {
         "type": int,
